@@ -1,0 +1,61 @@
+body {
+	font-family: sans-serif;
+	width: 1240px;
+	margin: 0 auto;
+	padding: 8%;
+	background:  hsl(233, 47%, 7%);
+}
+
+main {
+	color: white;
+	width: 540px;
+	height: 449px;
+	padding: 50px;
+	box-sizing: border-box;
+	background: hsl(244, 38%, 16%);
+	border-radius: 10px 0px 0px 10px;
+}
+
+main h1 {
+	width: 90%;
+	font-size: 38px;
+	font-weight: bold;
+}
+
+.textoDescrição {
+	color: hsla(0, 0%, 100%, 0.6);
+	width: 85%;
+	font-size: 17px;
+	line-height: 1.5;
+}
+
+main li {
+	width: 85%;
+	text-transform: uppercase;
+	line-height: 1.5;
+}
+
+.numerosLista {
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+
+}
+
+.textoNumeros {
+	color: hsla(0, 0%, 100%, 0.6);
+	font-size: 12px;
+}
+
+.imagem {
+	box-sizing: border-box;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.attribution {
+	font-size: 20px;
+    width: 1080px;
+	margin-top: 20px;
+	color: white;
+	text-align: center;
+}
