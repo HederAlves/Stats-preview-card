@@ -16,3 +16,25 @@
 	justify-content: space-between;
 
 }
+
+
+	/*MOBILE*/
+@media(max-width: 768px) {
+
+
+	.containerItensPrincipais {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+
+
+	.containerListaItens {
+		display: initial;
+		justify-content: space-between;
+
+	}
+
+
+
+}
