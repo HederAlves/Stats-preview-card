@@ -2,14 +2,14 @@ body {
 	font-family: sans-serif;
 	width: 1240px;
 	margin: 0 auto;
-	padding: 8%;
+	padding: 10%;
 	background:  hsl(233, 47%, 7%);
 }
 
 main {
 	color: white;
 	width: 540px;
-	height: 449px;
+	height: 446px;
 	padding: 50px;
 	box-sizing: border-box;
 	background: hsl(244, 38%, 16%);
@@ -20,6 +20,7 @@ main h1 {
 	width: 90%;
 	font-size: 38px;
 	font-weight: bold;
+
 }
 
 .textoDescrição {
@@ -48,8 +49,17 @@ main li {
 }
 
 .imagem {
+	background: hsl(277, 64%, 61%, 0.5);
+	width: 540px;
+	height: 446px;
 	box-sizing: border-box;
+	border: 1px solid hsl(277, 64%, 61%, 0.5);
     border-radius: 0px 10px 10px 0px;
+}
+.imagemFundo {
+	height: 446px;
+	background: url("image-header-desktop.jpg");
+	border-radius: 0px 10px 10px 0px;
 }
 
 .attribution {
@@ -59,3 +69,64 @@ main li {
 	color: white;
 	text-align: center;
 }
+
+
+		/*MOBILE*/
+@media(max-width: 768px) {
+
+	body {
+		width: 340px;
+		padding: initial;
+	}
+
+	.imagem {
+
+		width: 340px;
+		height: 220px;
+		border-radius: 5px 5px 0px 0px;
+	}
+
+	.imagemFundo {
+		margin-top: 50px;
+	    width: 340px;
+	    height: 220px;
+	    background: url(image-header-mobile.jpg);
+	    border-radius: 5px 5px 0px 0px;
+	}
+
+	main {
+
+		width: 340px;
+		height: 520px;
+		padding: 50px 15px 10px 15px;
+		border-radius: 0px 0px 5px 5px;
+	}
+
+	main h1 {
+		width: 100%;
+		font-size: 28px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.textoDescrição {
+		font-size: 16px;
+		width: 95%;
+		text-align: center;
+	}
+
+	main li {
+		width: 100%;
+		text-align: center;
+		height: 80px;
+	}
+
+	.attribution {
+		width: 300px;
+		margin-top: 20px;
+	}
+
+
+}
+	
+
